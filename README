@@ -1,6 +1,6 @@
-AMD5600+5600XT+主板asusb550m wifi II
+AMD5600+5600XT+主板TUF GAMING B550M-PLUS WIFI II
 
-测试环境：13.2.1(opercore0.9.0)
+测试环境：13.6.1(opercore0.9.6),经测试，可用于14.1.2
 
 内存：ddr4 3600 16G
 
@@ -8,4 +8,6 @@ AMD5600+5600XT+主板asusb550m wifi II
 
 cpu变频正常
 
-网卡：只能驱动有线，未更换无线网上，蓝牙同样不能用
+网卡：只能驱动有线，未更换无线网卡，蓝牙同样不能用
+
+请自行生成 SMBIOS 信息
