@@ -11,7 +11,7 @@ DeviceProperties里注入CFG_LINK_FIXED_MAP参数修复开机二阶段跳过进�
 参考官方教程：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
 
 WIFI和蓝牙已更换为AX210
-请更换（同款无线继续使用）以下四个驱动：
+添加以下四个驱动：
 [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)
 [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)
 [IntelBluetoothFirmware.kext和IntelBTPatcher.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
