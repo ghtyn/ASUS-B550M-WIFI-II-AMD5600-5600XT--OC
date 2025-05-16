@@ -12,8 +12,7 @@ WIFI和蓝牙已更换ax210
 请更换（同款无线继续使用）以下四个驱动：
 [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)
 [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)
-[IntelBluetoothFirmware.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
-[IntelBTPatcher.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
+[IntelBluetoothFirmware.kext和IntelBTPatcher.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
 
 NVRAM里移除以下两项参数：
 bluetoothExternalDongleFailed、bluetoothInternalControllerInfo
