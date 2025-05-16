@@ -7,7 +7,7 @@ AMD5600+5600XT+主板TUF GAMING B550M-PLUS WIFI II
 显卡：
 DeviceProperties里注入参数修复开机二阶段跳过进度条进入系统。
 修复休眠时需要点击两次键盘才能亮屏，ACPI中添加SSDT-USBW.aml配合USBWakeFixup.kext驱动使用。
-参考教程来自：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
+参考官方教程：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
 
 WIFI和蓝牙已更换为AX210
 请更换（同款无线继续使用）以下四个驱动：
