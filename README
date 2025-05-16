@@ -1,13 +1,19 @@
 AMD5600+5600XT+主板TUF GAMING B550M-PLUS WIFI II
 
-测试环境：14.5(opercore1.0.0)
+测试环境：13.7.5(opercore1.0.4)
 
 内存：ddr4 3600 16G
 
-显卡（4k硬解）、声卡、网卡正常驱动、usb已定制
+显卡（4k硬解）,休眠正常
+DeviceProperties里注入参数修复开机二阶段跳过进度条进入系统。
+SSDT-USBW.aml+USBWakeFixup.kext修复休眠时需要点击两次键盘才能亮屏，参考教程来自：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html#method-1-add-wake-type-property-recommended)
 
-cpu变频正常
+WIFI和蓝牙已更换ax210
+请移除以下四个驱动：
+AirportItlwm.kext、BlueToolFixup.kext、IntelBluetoothFirmware.kext、IntelBTPatcher.kext
+NVRAM里移除以下两项参数：
+bluetoothExternalDongleFailed、bluetoothInternalControllerInfo
 
-网卡：只能驱动有线，未更换无线网卡，蓝牙同样不能用
+声卡正常、usb已定制、NV硬盘已内建(通过DeviceProperties内建)
 
 请自行生成 SMBIOS 信息
