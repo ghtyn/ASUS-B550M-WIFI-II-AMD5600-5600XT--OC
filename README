@@ -8,12 +8,13 @@ AMD5600+5600XT+主板TUF GAMING B550M-PLUS WIFI II
 DeviceProperties里注入参数修复开机二阶段跳过进度条进入系统。
 SSDT-USBW.aml+USBWakeFixup.kext修复休眠时需要点击两次键盘才能亮屏，参考教程来自：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
 
-
-
-
 WIFI和蓝牙已更换ax210
-请移除以下四个驱动：
-AirportItlwm.kext、BlueToolFixup.kext、IntelBluetoothFirmware.kext、IntelBTPatcher.kext
+请更换（同款无线继续使用）以下四个驱动：
+[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)
+[BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)
+[IntelBluetoothFirmware.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
+[IntelBTPatcher.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
+
 NVRAM里移除以下两项参数：
 bluetoothExternalDongleFailed、bluetoothInternalControllerInfo
 
