@@ -1643,26 +1643,6 @@
             <false/>
             <key>Generic</key>
             <dict>
-                <key>AdviseFeatures</key>
-                <false/>
-                <key>MLB</key>
-                <string>F5K935102J9FHDDJ</string>
-                <key>MaxBIOSVersion</key>
-                <false/>
-                <key>ProcessorType</key>
-                <integer>1537</integer>
-                <key>ROM</key>
-                <data></data>
-                <key>SpoofVendor</key>
-                <false/>
-                <key>SystemMemoryStatus</key>
-                <string>Auto</string>
-                <key>SystemProductName</key>
-                <string>MacPro7,1</string>
-                <key>SystemSerialNumber</key>
-                <string></string>
-                <key>SystemUUID</key>
-                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
