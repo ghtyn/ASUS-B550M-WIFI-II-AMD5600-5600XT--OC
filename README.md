@@ -6,16 +6,23 @@ AMD5600+5600XT+主板TUF GAMING B550M-PLUS WIFI II
 
 显卡：
 DeviceProperties里注入CFG_LINK_FIXED_MAP参数修复开机二阶段跳过进度条进入系统。
+
 [解决5500xt等navi14显卡引导二阶段黑屏几秒的问题](https://imacos.top/2023/03/05/1134-5)
+
 修复休眠时需要点击两次键盘才能亮屏，ACPI中添加SSDT-USBW.aml配合USBWakeFixup.kext驱动使用。
-参考官方教程：
-[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
+
+参考官方教程：[Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html)
 
 WIFI和蓝牙已更换为AX210
+
 添加以下四个驱动：
+
 [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)
+
 [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)
+
 [IntelBluetoothFirmware.kext和IntelBTPatcher.kext](https://openintelwireless.github.io/IntelBluetoothFirmware/)
+
 NVRAM里添加以下两项参数后驱动蓝牙：bluetoothExternalDongleFailed、bluetoothInternalControllerInfo
 
 声卡正常、usb已定制、NV硬盘已内建(通过DeviceProperties内建)
